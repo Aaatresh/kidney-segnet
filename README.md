@@ -15,7 +15,7 @@ Image segmentation is a well explored task in the computer vision domain. Howeve
 
 ### Installing
 ```
-  git clone https://github.com/Aaatresh/KidneyNet
+  git clone https://github.com/Aaatresh/kidney-segnet
 ```
 
 ### Data
