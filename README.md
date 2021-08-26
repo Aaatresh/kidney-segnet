@@ -4,7 +4,7 @@ Implementation of Kidney-Segnet: Efficient deep learning architecture with dimen
 ![](./diagrams/encoder_aspp_decoder.png)
 
 ## Description
-Image segmentation is a well explored task in the computer vision domain. However, the standard convolution operations performed in CNNs are inefficient in memory and computation. We address this issue by using dimensionwise convolutions (DiCE blocks) in an attention based encoder-decoder framework to make our network more efficient and effective. Moreover, in order to capture multi-scale information effectively, we use DiCE based atrous spatial pyramid pooling (ASPP) on dense feature maps in the encoder-decoder framework. 
+Image segmentation is a well explored task in the computer vision domain. However, the standard convolution operations performed in CNNs are inefficient in memory and computation. We address this issue by using dimension-wise convolutions (DiCE blocks) in an attention based encoder-decoder framework to make our network more efficient and effective. Moreover, in order to capture multi-scale information effectively, we use DiCE based atrous spatial pyramid pooling (ASPP) on dense feature maps in the encoder-decoder framework. 
 
 ## Getting Started
 
