@@ -1,16 +1,16 @@
 # KidneyNet
-Implementation of KidneyNet: Efficient Encoder–Decoder Architecture with Dimension-wisePyramid Pooling for Nuclei Segmentation of Histopathology Images 
+Implementation of Kidney-Segnet: Efficient deep learning architecture with dimension-wise pyramid pooling for nuclei segmentation of histopathology images 
 
 ![](./diagrams/encoder_aspp_decoder.png)
 
 ## Description
-Image segmentation is a well explored task in the computer vision domain. However, the standard convolution operations performed in CNNs are inefficient in memory and computation. We address this issue by using dimensionwise convolutions (DICE blocks) to make our network more efficient. Moreover, in order to capture multi-scale information effectively, we use atrous spatial pyramid pooling on dense feature maps in the U-Net framework. 
+Image segmentation is a well explored task in the computer vision domain. However, the standard convolution operations performed in CNNs are inefficient in memory and computation. We address this issue by using dimensionwise convolutions (DiCE blocks) in an attention based encoder-decoder framework to make our network more efficient and effective. Moreover, in order to capture multi-scale information effectively, we use DiCE based atrous spatial pyramid pooling (ASPP) on dense feature maps in the encoder-decoder framework. 
 
 ## Getting Started
 
 ### Dependencies
 * Python >= 3.6
-
+* Pytorch == 1.9
 
 
 ### Installing
@@ -24,22 +24,18 @@ annotation for nucleus detection and segmentation in computational pathology: Ev
 the crowd][1] and [Segmentation of Nuclei in Histopathology Images by Deep Regression of the Distance Map][2] respectively.
 
 ### Running the Code
-Jupyter Noteobook or Google Colab can be used to open these notebooks.
+Jupyter Noteobook or Google Colab can be used to open this notebook. Clone this repository and open the source code by running the following statements: 
 ```
+  git clone https://github.com/Aaatresh/kidney-segnet
   jupyter notebook
 ```
-Instructions in the notebooks guide the user through the steps to run each cell.
-
-The file to be used to train KidneyNet is: "./DIST_dice_aspp_train.ipynb". 
-
-Once the training process has been completed, the testing can be done through "./DIST_dice_aspp_test.ipynb".
-
 
 
 ## Authors
 
 Contributors names and contact info:
-* Anirudh Aatresh (aaa.171ec106@nitk.edu.in)
+* Anirudh Aatresh (aaatresh@umich.edu)
+* Dr. Shyam Lal (shyamfec@nitk.edu.in)
 
 ## Version History
 
