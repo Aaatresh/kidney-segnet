@@ -1,4 +1,4 @@
-# KidneyNet
+# Kidney-Segnet
 Implementation of Kidney-Segnet: Efficient deep learning architecture with dimension-wise pyramid pooling for nuclei segmentation of histopathology images 
 
 ![](./diagrams/encoder_aspp_decoder.png)
@@ -24,11 +24,7 @@ annotation for nucleus detection and segmentation in computational pathology: Ev
 the crowd][1] and [Segmentation of Nuclei in Histopathology Images by Deep Regression of the Distance Map][2] respectively.
 
 ### Running the Code
-Jupyter Noteobook or Google Colab can be used to open this notebook. Clone this repository and open the source code by running the following statements: 
-```
-  git clone https://github.com/Aaatresh/kidney-segnet
-  jupyter notebook
-```
+Jupyter Notebook or Google Colab can be used to open this notebook. Make sure you clone this repository before opening the notebook and running its cells. 
 
 
 ## Authors
