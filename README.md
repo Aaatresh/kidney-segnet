@@ -40,7 +40,7 @@ Contributors names and contact info:
 
 ## License
 
-This project is licensed under the BSD-3-Clause License - see the LICENSE.md file for details
+This project is licensed under the MIT License - see the LICENSE.md file for details
 
 
 [1]: <https://www.researchgate.net/publication/266968190_CROWDSOURCING_IMAGE_ANNOTATION_FOR_NUCLEUS_DETECTION_AND_SEGMENTATION_IN_COMPUTATIONAL_PATHOLOGY_EVALUATING_EXPERTS_AUTOMATED_METHODS_AND_THE_CROWD>
