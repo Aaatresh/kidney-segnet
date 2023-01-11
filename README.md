@@ -1,5 +1,5 @@
 # Kidney-Segnet
-Implementation of [Kidney-Segnet: Efficient deep learning architecture with dimension-wise pyramid pooling for nuclei segmentation of histopathology images ](https://www.sciencedirect.com/science/article/abs/pii/S0895611121001245?via%3Dihub)
+Implementation of Kidney-Segnet: [Efficient deep learning architecture with dimension-wise pyramid pooling for nuclei segmentation of histopathology images ](https://www.sciencedirect.com/science/article/abs/pii/S0895611121001245?via%3Dihub)
 
 ![](./diagrams/encoder_aspp_decoder.png)
 
